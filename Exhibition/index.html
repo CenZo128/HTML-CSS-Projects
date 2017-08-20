@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exhibition - Show Your Stamina!!</title>
+	<link href="images/favicon.ico" rel="shortcut icon">
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--JQUERY-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--RESPONSIVESLIDES-->
+	<link rel="stylesheet" href="js/ResponsiveSlides/responsiveslides.css">
+	<script type="text/javascript" src="js/ResponsiveSlides/responsiveslides.js"></script>
+	<!--Fungsi jQuery yang di panggil untuk Slideshow-->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#slider1").responsiveSlides({
+		        auto: true,
+		        pager: false,
+		        nav: true,
+		        speed: 500,
+		        namespace: "callbacks",
+     		});
+		});
+	</script>
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">  
+
+</head>
+<body>
+<div class="container">
+	<header>
+		<!--Logo-->
+		<div class="headerLeft">
+			<img src="images/exhibitionlogo.png">
+		</div>
+		<!--Menu-->
+		<div class="headerRight">
+			<ul>
+				<li><a href="">News</a></li>
+				<li><a href="">Contact Us</a></li>
+				<li><a href="">Schedule</a></li>
+				<li><a href="">Profile</a></li>
+				<li><a href="">Home</a></li>
+			</ul>
+		</div>
+	</header>
+	<article>
+		<!--Untuk memasukkan Plugin jQuery, copas dulu CSS dan panggil fungsi jQuery dahulu-->
+		<!-- Slideshow-->
+	    <div class="callbacks_container">
+	      <ul class="rslides" id="slider1">
+	        <li>
+	          <img src="images/photo1.jpeg" alt="">
+	          <p class="caption">Release your emotions through moves</p>
+	        </li>
+	        <li>
+	          <img src="images/photo2.jpeg" alt="">
+	          <p class="caption">Flexibility is a key in sports</p>
+	        </li>
+	        <li>
+	          <img src="images/photo3.jpeg" alt="">
+	          <p class="caption">Push your limit</p>
+	        </li>
+	      </ul>
+	    </div>
+	    <!--Product-->
+	    <div class="product">
+	    	<div class="productLeft">
+	    		<h3>Our Product <span class="Qmarks">?</span></h3>
+	    		
+	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    		tempor incididunt ut labore et dolore magna aliqua. </p>
+	    	</div>
+	    	<div class="productLeft">
+	    		<h3>We Are Professional <span class="Qmarks">?</span></h3>
+	    		
+	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    		tempor incididunt ut labore et dolore magna aliqua. </p>
+	    	</div>
+	    	<div class="productRight">
+				<h3>Flexible Schedule <span class="Qmarks">?</span></h3>
+	    		
+	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    		tempor incididunt ut labore et dolore magna aliqua. </p>
+	    	</div>
+	    </div>
+	    <!--Show-->
+	    <div class="show">
+	    	<div class="showLeft">
+	    		<img src="images/show1.jpg">
+	    		<h3>Practice Everyday <br> Makes Perfect</h3>
+	    		<p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing  elit, sed do eiusmod
+	    		tempor <br> incididunt ut labore  et dolore magna aliqua. </p>
+	    		<a href="">More Information..</a>
+	    	</div>
+	    	<div class="showRight">
+	    		<img src="images/show2.jpg">
+	    		<h3>Be Yourself And <br>Change The World</h3>
+	    		<p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit, <br> sed do eiusmod
+	    		tempor <br> incididunt ut labore et dolore <br>magna aliqua. </p>
+	    		<a href="">More Information..</a>
+	    	</div>
+	    </div>
+	    <!--Information-->
+	    <div class="information">
+	    	<div class="informationLeft">
+	    		<h3>Schedule</h3>
+	    		<ul>
+	    			<li><a href="">Monday</a></li>
+	    			<li><a href="">Tuesday</a></li>
+	    			<li><a href="">Wednesday</a></li>
+	    			<li><a href="">Thursday</a></li>
+	    			<li><a href="">Friday</a></li>
+	    			<li><a href="">Saturday</a></li>
+	    			<li><a href="">Sunday</a></li>
+	    		</ul>
+	    	</div>
+	    	<div class="informationLeft">
+	    		<h3>News</h3>
+	    		<h5>Breaking News</h5>
+	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    		tempor incididunt ut labore et dolore magna aliqua.</p>
+	    		<a href="">read more..</a>
+	    		<br>
+	    		<h5>Breaking News</h5>
+	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    		tempor incididunt ut labore et dolore magna aliqua.</p>
+	    		<a href="">read more..</a>
+	    	</div>
+	    	<div class="informationRight">
+	    		<h3>Social Media</h3>
+	    		<ul>
+	    			<li><img src="images/facebook.png"></li>
+	    			<li><img src="images/twitter.png"></li>
+	    			<li><img src="images/linkedin.png"></li>
+	    		</ul>
+
+	    	</div>
+	    </div>
+	</article>
+	<footer>
+		<p>Copyright &copy; by CenZo</p>
+	</footer>
+</div>
+
+</body>
+</html>

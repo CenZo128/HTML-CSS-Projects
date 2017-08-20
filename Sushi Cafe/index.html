@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sushi Hara Cafe</title>
+	<link rel="shortcut icon" href="">
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!--JQUERY-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--RESPONSIVESLIDES-->
+	<link rel="stylesheet" href="js/ResponsiveSlides/responsiveslides.css">
+	<script type="text/javascript" src="js/ResponsiveSlides/responsiveslides.js"></script>
+	<!--Fungsi jQuery yang di panggil untuk Slideshow-->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#slider").responsiveSlides({
+		        auto: true,
+		        pager: true,
+		        nav: true,
+		        speed: 500,
+		        maxwidth: 800,
+		        namespace: "transparent-btns"
+		      });
+		});
+	</script>
+</head>
+<body>
+<div class="container">
+	<header>
+		<div class="headerLeft">
+			<h3>Sushi Hara Cafe</h3>
+			<p>Healthy, Fresh, and Delicious</p>
+		</div>
+		<div class="headerRight">
+			<ul>
+				<li><a href="">Location</a></li>
+				<li><a href="">Events</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Menu</a></li>
+				<li><a href="">Team</a></li>
+			</ul>
+		</div>
+	</header>
+	<article>
+		<div class="articleLeft">
+			<div class="rslides_container">
+				<ul class="rslides" id="slider">
+				    <li><img src="images/sushi1.jpeg" alt=""></li>
+				    <li><img src="images/sushi2.jpeg" alt=""></li>
+				    <li><img src="images/sushi3.jpeg" alt=""></li>
+				    <li><img src="images/sushi4.jpeg" alt=""></li>
+				    <li><img src="images/sushi5.jpeg" alt=""></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="articleRight">
+			<div class="rice">
+				<div class="riceLeft">
+					<img src="images/rice.jpg">
+				</div>
+				<div class="riceRight">
+					<h3>Japanese Rice</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+				</div>
+			</div>
+			<div class="rice">
+				<div class="riceLeft">
+					<img src="images/brownrice.jpg">
+				</div>
+				<div class="riceRight">
+					<h3>Brown Rice</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+				</div>
+			</div>
+			<div class="rice">
+				<div class="riceLeft">
+					<img src="images/redrice.jpg">
+				</div>
+				<div class="riceRight">
+					<h3>Red Rice</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+				</div>
+			</div>
+		</div>
+	</article>
+	<footer>
+		<div class="footerLeft">
+			<p>Lorem Ipsum Dolor Sit Amet</p>			
+		</div>
+		<div class="footerCenter">
+			<img src="images/Facebook.png">
+			<img src="images/Twitter.png">
+			<img src="images/Tumblr.png">			
+		</div>
+		<div class="footerRight">
+			<p>0123 - 4567 - 8910</p>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
